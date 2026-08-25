@@ -1,14 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.9.0",
-  "published_at": "2026-08-24T18:05:31Z",
-  "download_url": "https://github.com/YOUR_GITHUB_USER/YOUR_REPOSITORY/releases/download/v8.9.0/taryo-coolcook-rock2a-v8.9.0.zip",
-  "sha256": "bd0a81498ad2325a103b92676b9a64ba2abaa54918fac59f121452ec3e92aedc",
-  "size_bytes": 209403,
+  "version": "8.12.0",
+  "published_at": "2026-08-25T10:22:37Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.12.0/taryo-coolcook-rock2a-v8.12.0.zip",
+  "sha256": "ad9063097264454f4c7d2e23bf625c08eca2c9bf5a4bd5436d12a825bb0e8a2d",
+  "size_bytes": 215314,
   "mandatory": false,
   "release_notes": [
-    "Sensorfehler werden auf allen vier Kanälen erst nach 20 Sekunden durchgängigem Fehler gemeldet und abgeschaltet.",
-    "Update-Funktion über Settings ergänzt."
+    "Auto bleibt ohne lokales Programm immer in Standby.",
+    "Die gespeicherten Kühl- und Heizzeiten werden ausschließlich vom einmaligen Timing verwendet.",
+    "Nach Timing-Ende oder Neustart aus Manuell fällt die Anlage auf Auto / Standby zurück."
   ]
 }
