@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.13.0",
-  "published_at": "2026-08-25T11:29:55Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.13.0/taryo-coolcook-rock2a-v8.13.0.zip",
-  "sha256": "037b53b7948719dfc6d96bf463b21dd43cf602c027a10e5007c71e58e08b0eaa",
-  "size_bytes": 220445,
+  "version": "8.10.0",
+  "published_at": "2026-08-25T09:13:28Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.10.0/taryo-coolcook-rock2a-v8.10.0.zip",
+  "sha256": "dbe438e115bfeec466a4633f1347ea36d0cb892917ae231045253686db48a292",
+  "size_bytes": 211980,
   "mandatory": false,
   "release_notes": [
-    "Heizfolge Garraum, Lebensmittel und Warmhalten korrigiert; weiterhin reine EIN/AUS-Regelung.",
-    "TL-Steilheitswarnung, manuell deaktivierbare Lebensmittelregelung und geprüfte Grenzwerte ergänzt.",
-    "Rock2A-Lüfter startet jetzt mit mindestens 55 % PWM; keine Housing-Fan-Fehlermeldung."
+    "Nur noch der aktive Tab Automatik, Timing oder Manuell ist sichtbar; das Aufklappmenü schaltet Seite und realen Steuerungsmodus gemeinsam um.",
+    "Beim Wechsel in Manuell startet die Anlage sicher in Standby; Timing übernimmt unmittelbar den vorhandenen Zeitplan.",
+    "Deaktivierte interne WLAN-Geräte werden ignoriert und der USB-WLAN-Dongle wird für Scan und Verbindung bevorzugt."
   ]
 }
