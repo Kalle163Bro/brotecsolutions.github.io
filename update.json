@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.12.0",
-  "published_at": "2026-08-25T10:22:37Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.12.0/taryo-coolcook-rock2a-v8.12.0.zip",
-  "sha256": "ad9063097264454f4c7d2e23bf625c08eca2c9bf5a4bd5436d12a825bb0e8a2d",
-  "size_bytes": 215314,
+  "version": "8.13.0",
+  "published_at": "2026-08-25T11:29:55Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.13.0/taryo-coolcook-rock2a-v8.13.0.zip",
+  "sha256": "037b53b7948719dfc6d96bf463b21dd43cf602c027a10e5007c71e58e08b0eaa",
+  "size_bytes": 220445,
   "mandatory": false,
   "release_notes": [
-    "Auto bleibt ohne lokales Programm immer in Standby.",
-    "Die gespeicherten Kühl- und Heizzeiten werden ausschließlich vom einmaligen Timing verwendet.",
-    "Nach Timing-Ende oder Neustart aus Manuell fällt die Anlage auf Auto / Standby zurück."
+    "Heizfolge Garraum, Lebensmittel und Warmhalten korrigiert; weiterhin reine EIN/AUS-Regelung.",
+    "TL-Steilheitswarnung, manuell deaktivierbare Lebensmittelregelung und geprüfte Grenzwerte ergänzt.",
+    "Rock2A-Lüfter startet jetzt mit mindestens 55 % PWM; keine Housing-Fan-Fehlermeldung."
   ]
 }
