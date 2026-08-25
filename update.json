@@ -1,16 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.14.0",
-  "published_at": "2026-08-25T12:00:51Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.0/taryo-coolcook-rock2a-v8.14.0.zip",
-  "sha256": "c94f3c2491abcae5951577743a78b2ea7b19a70c0eb3497e156e57db47b9815d",
-  "size_bytes": 223448,
+  "version": "8.14.1",
+  "published_at": "2026-08-25T12:36:02Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.1/taryo-coolcook-rock2a-v8.14.1.zip",
+  "sha256": "f2ed45c6132989eee24632879c7ac888ef7bd63051105f268d58e179d69af211",
+  "size_bytes": 224553,
   "mandatory": false,
   "release_notes": [
-    "REED_IN auf H1 Pin 8 / GPIO4_D0 korrigiert und mit hardware-naher Türverriegelung abgesichert.",
-    "1280×720-Querformat mit zweizeiligen Fehler- und Update-Installationsmeldungen.",
-    "Heizung, Peltiers und CTL1/CTL2 bei offener Tür sofort AUS; Abwärme- und Housing-Fans bleiben aktiv.",
-    "Veraltete Sollwert-nicht-erreicht-Zeitmeldung entfernt."
+    "1280×720-Panel wieder 90° links gedreht: 720×1280-Hochformat für Bild und Touch.",
+    "Menü oben, Seitenblöcke untereinander und lange Fehler-/Update-Meldungen zweizeilig.",
+    "REED-Sperre unverändert: Heizung, Peltiers und Umlüfter sofort aus; Abwärme- und Housing-Fans bleiben an."
   ]
 }
