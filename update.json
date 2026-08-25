@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.14.1",
-  "published_at": "2026-08-25T12:36:02Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.1/taryo-coolcook-rock2a-v8.14.1.zip",
-  "sha256": "f2ed45c6132989eee24632879c7ac888ef7bd63051105f268d58e179d69af211",
-  "size_bytes": 224553,
+  "version": "8.14.3",
+  "published_at": "2026-08-25T12:56:11Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.3/taryo-coolcook-rock2a-v8.14.3.zip",
+  "sha256": "cdc8b954259b282261ce5ec560e218dc6de378ce0ade1222a4387ae0e635e017",
+  "size_bytes": 230163,
   "mandatory": false,
   "release_notes": [
-    "1280×720-Panel wieder 90° links gedreht: 720×1280-Hochformat für Bild und Touch.",
-    "Menü oben, Seitenblöcke untereinander und lange Fehler-/Update-Meldungen zweizeilig.",
-    "REED-Sperre unverändert: Heizung, Peltiers und Umlüfter sofort aus; Abwärme- und Housing-Fans bleiben an."
+    "Touch-Bildschirmtastatur erscheint automatisch bei editierbaren Feldern und wird sonst ausgeblendet.",
+    "Deutsches Onboard-Layout, AT-SPI-Anbindung an Chromium und automatischer Neustart eingerichtet.",
+    "Lebensmittel-Sollwert ist im manuellen Kühlbetrieb deaktiviert und ausgegraut."
   ]
 }
