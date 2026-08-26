@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.14.9",
-  "published_at": "2026-08-26T11:21:16Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.9/taryo-coolcook-rock2a-v8.14.9.zip",
-  "sha256": "a9b93aa31667f3cd5ba0fae17ee95e113176268f7f49f02b2918a535ee80c7e0",
-  "size_bytes": 240165,
+  "version": "8.14.10",
+  "published_at": "2026-08-26T12:46:35Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.10/taryo-coolcook-rock2a-v8.14.10.zip",
+  "sha256": "8e11432f9260db32e492124300a5009eb9619218c246fd9f1f41106bc0d678e1",
+  "size_bytes": 243843,
   "mandatory": false,
   "release_notes": [
-    "Die Lebensmittelfühler-Warnung vergleicht jetzt die Dynamik von TR und TL statt eines festen Temperaturanstiegs.",
-    "Die neue 90-s-Warnung beeinflusst weder Regelgröße noch Ausgänge.",
-    "Warmhalten regelt TR exakt auf den Lebensmittel-Sollwert; TL ist dort keine Regelgröße."
+    "Die Bildschirmtastatur öffnet sich in Chromium jetzt zusätzlich direkt bei Sollwert-, Zeit-, WLAN-Passwort- und APN-Feldern.",
+    "Chromium startet mit vollständiger Barrierefreiheit und dem X11-Ozone-Backend.",
+    "Steuerungs-, Sensor- und Ausgangslogik sind gegenüber V8.14.9 unverändert."
   ]
 }
