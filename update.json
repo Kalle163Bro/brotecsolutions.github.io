@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.14.6",
-  "published_at": "2026-08-26T10:03:25Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.6/taryo-coolcook-rock2a-v8.14.6.zip",
-  "sha256": "6ae448d2e1846c47db862ebabcb01a6dc33fbb3c515906d9ab77edd65ee8a60f",
-  "size_bytes": 231979,
+  "version": "8.14.7",
+  "published_at": "2026-08-26T10:28:41Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.7/taryo-coolcook-rock2a-v8.14.7.zip",
+  "sha256": "5944d18ec33aa59b7b47cdace813a3bb5a4f9881e289159eeddd6889d7aaf514",
+  "size_bytes": 233245,
   "mandatory": false,
   "release_notes": [
-    "Weiße SVG-Symbole wurden nach der gelieferten Bildvorlage neu gezeichnet.",
-    "Das @ steht für Automatik; Hand, Uhr, Zahnrad und Kennlinie stehen für Manuell, Timing, Settings und Diagramme.",
-    "Flamme und Schneeflocke kennzeichnen Heizen und Kühlen; die Steuerungslogik bleibt unverändert."
+    "Touch-Tasten, Symbole und Eingabefelder wurden auf allen Seiten deutlich vergrößert.",
+    "Die Temperatur-Kacheln wurden aus der Kopfzeile entfernt; rechts steht nur noch die Geräte-ID.",
+    "Datum, Uhrzeit und sichtbarer RTC-Hinweis entfallen; RTC-, NTP- und Timing-Logik bleiben im Hintergrund aktiv."
   ]
 }
