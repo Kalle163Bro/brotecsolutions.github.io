@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.14.7",
-  "published_at": "2026-08-26T10:28:41Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.7/taryo-coolcook-rock2a-v8.14.7.zip",
-  "sha256": "5944d18ec33aa59b7b47cdace813a3bb5a4f9881e289159eeddd6889d7aaf514",
-  "size_bytes": 233245,
+  "version": "8.14.9",
+  "published_at": "2026-08-26T11:21:16Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.9/taryo-coolcook-rock2a-v8.14.9.zip",
+  "sha256": "a9b93aa31667f3cd5ba0fae17ee95e113176268f7f49f02b2918a535ee80c7e0",
+  "size_bytes": 240165,
   "mandatory": false,
   "release_notes": [
-    "Touch-Tasten, Symbole und Eingabefelder wurden auf allen Seiten deutlich vergrößert.",
-    "Die Temperatur-Kacheln wurden aus der Kopfzeile entfernt; rechts steht nur noch die Geräte-ID.",
-    "Datum, Uhrzeit und sichtbarer RTC-Hinweis entfallen; RTC-, NTP- und Timing-Logik bleiben im Hintergrund aktiv."
+    "Die Lebensmittelfühler-Warnung vergleicht jetzt die Dynamik von TR und TL statt eines festen Temperaturanstiegs.",
+    "Die neue 90-s-Warnung beeinflusst weder Regelgröße noch Ausgänge.",
+    "Warmhalten regelt TR exakt auf den Lebensmittel-Sollwert; TL ist dort keine Regelgröße."
   ]
 }
