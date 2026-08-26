@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.14.5",
-  "published_at": "2026-08-26T09:18:24Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.5/taryo-coolcook-rock2a-v8.14.5.zip",
-  "sha256": "517b047712ff1156e56d956843e35c7aed95eeb66c524c967dea7179249ad8ee",
-  "size_bytes": 231050,
+  "version": "8.14.6",
+  "published_at": "2026-08-26T10:03:25Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.6/taryo-coolcook-rock2a-v8.14.6.zip",
+  "sha256": "6ae448d2e1846c47db862ebabcb01a6dc33fbb3c515906d9ab77edd65ee8a60f",
+  "size_bytes": 231979,
   "mandatory": false,
   "release_notes": [
-    "Einheitliche weiße SVG-Symbole für Automatik, Timing, Manuell, Diagramm, WLAN, Standby, Heizen und Kühlen.",
-    "Der rote Außenrahmen bei aktiven Fehlermeldungen wurde entfernt.",
-    "Das WLAN-Menü zeigt verbunden nur SSID, Qualität und Trennen; Suche und Passwort erscheinen nur im getrennten Zustand."
+    "Weiße SVG-Symbole wurden nach der gelieferten Bildvorlage neu gezeichnet.",
+    "Das @ steht für Automatik; Hand, Uhr, Zahnrad und Kennlinie stehen für Manuell, Timing, Settings und Diagramme.",
+    "Flamme und Schneeflocke kennzeichnen Heizen und Kühlen; die Steuerungslogik bleibt unverändert."
   ]
 }
