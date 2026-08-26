@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.14.10",
-  "published_at": "2026-08-26T12:46:35Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.14.10/taryo-coolcook-rock2a-v8.14.10.zip",
-  "sha256": "8e11432f9260db32e492124300a5009eb9619218c246fd9f1f41106bc0d678e1",
-  "size_bytes": 243843,
+  "version": "8.15.0",
+  "published_at": "2026-08-26T13:27:46Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.0/taryo-coolcook-rock2a-v8.15.0.zip",
+  "sha256": "5c2382e645d45d41769178dee5aacb2c719853cd91a3f20caaf031958512847c",
+  "size_bytes": 242620,
   "mandatory": false,
   "release_notes": [
-    "Die Bildschirmtastatur öffnet sich in Chromium jetzt zusätzlich direkt bei Sollwert-, Zeit-, WLAN-Passwort- und APN-Feldern.",
-    "Chromium startet mit vollständiger Barrierefreiheit und dem X11-Ozone-Backend.",
-    "Steuerungs-, Sensor- und Ausgangslogik sind gegenüber V8.14.9 unverändert."
+    "Integrierte Touch-Tastatur funktioniert direkt im Chromium-Kiosk-Vollbild.",
+    "Eigene Layouts für Sollwerte, Uhrzeiten sowie deutsches QWERTZ mit Umlauten.",
+    "Onboard- und AT-SPI-Autostart werden nicht mehr benötigt; Regelungslogik unverändert."
   ]
 }
 
