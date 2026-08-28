@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.15.5",
-  "published_at": "2026-08-28T14:13:12Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.5/taryo-coolcook-rock2a-v8.15.5.zip",
-  "sha256": "1aac785f6b29411a5f281e6cc8291ce8469a53d8832e70ca12ea2a86f24548f5",
-  "size_bytes": 261700,
+  "version": "8.15.6",
+  "published_at": "2026-08-28T14:32:39Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.6/taryo-coolcook-rock2a-v8.15.6.zip",
+  "sha256": "62c9d19787a673e1889177cb06e068ba7d20cb47ace14baa64566894223eb97a",
+  "size_bytes": 262917,
   "mandatory": false,
   "release_notes": [
-    "Settings öffnet sofort; Internetverbindung, IP-Adresse und WLAN-Qualität werden asynchron geladen.",
-    "Fehlende Sensor- und Sollwertdaten werden im 24-Stunden-Diagramm rot gestrichelt als Keine Daten markiert.",
-    "Das zusätzliche TARYO-Logo wurde aus der Bedienoberfläche entfernt."
+    "Settings zeigt beim asynchronen Verbindungscheck einen neutralen Ladezustand mit Spinner statt Offline.",
+    "Fehlende Sensor- und Sollwertdaten führen den letzten gültigen Kurvenwert rot gestrichelt fort.",
+    "Die rote Lückenanzeige verbindet sich direkt mit der grünen oder orangenen Kurve."
   ]
 }
