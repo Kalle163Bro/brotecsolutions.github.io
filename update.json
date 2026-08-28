@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.15.6",
-  "published_at": "2026-08-28T14:32:39Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.6/taryo-coolcook-rock2a-v8.15.6.zip",
-  "sha256": "62c9d19787a673e1889177cb06e068ba7d20cb47ace14baa64566894223eb97a",
-  "size_bytes": 262917,
+  "version": "8.15.7",
+  "published_at": "2026-08-28T14:57:32Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.7/taryo-coolcook-rock2a-v8.15.7.zip",
+  "sha256": "06a67639c00f75cd77785ea705bf03a03faab00e529a8c5087b792ceefd197c7",
+  "size_bytes": 264370,
   "mandatory": false,
   "release_notes": [
-    "Settings zeigt beim asynchronen Verbindungscheck einen neutralen Ladezustand mit Spinner statt Offline.",
-    "Fehlende Sensor- und Sollwertdaten führen den letzten gültigen Kurvenwert rot gestrichelt fort.",
-    "Die rote Lückenanzeige verbindet sich direkt mit der grünen oder orangenen Kurve."
+    "Fehlende Diagrammdaten werden mit kurzen roten Punkten statt langen Strichen fortgeführt.",
+    "Update-Status und Hinweise können jeweils drei Zeilen anzeigen.",
+    "Oben rechts steht die separate Server-Gerätenummer; die lokale Geräte-ID in Settings bleibt erhalten."
   ]
 }
