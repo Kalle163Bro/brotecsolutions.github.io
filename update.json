@@ -1,16 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.15.4",
-  "published_at": "2026-08-28T12:33:08Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.4/taryo-coolcook-rock2a-v8.15.4.zip",
-  "sha256": "9a3f378d782b18abc66791255d71984837b799ee1c1faa3ff39ac00881840c73",
-  "size_bytes": 259972,
+  "version": "8.15.5",
+  "published_at": "2026-08-28T14:13:12Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.5/taryo-coolcook-rock2a-v8.15.5.zip",
+  "sha256": "1aac785f6b29411a5f281e6cc8291ce8469a53d8832e70ca12ea2a86f24548f5",
+  "size_bytes": 261700,
   "mandatory": false,
   "release_notes": [
-    "Diagramm auf die letzten 24 Stunden begrenzt; Minutenwerte werden 365 Tage gespeichert.",
-    "Neue Exportseite schreibt einen wählbaren Zeitraum als CSV direkt in einen gewählten Ordner auf dem USB-Stick."
+    "Settings öffnet sofort; Internetverbindung, IP-Adresse und WLAN-Qualität werden asynchron geladen.",
+    "Fehlende Sensor- und Sollwertdaten werden im 24-Stunden-Diagramm rot gestrichelt als Keine Daten markiert.",
+    "Das zusätzliche TARYO-Logo wurde aus der Bedienoberfläche entfernt."
   ]
 }
-
-
