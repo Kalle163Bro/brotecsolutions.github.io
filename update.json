@@ -1,16 +1,17 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.15.0",
-  "published_at": "2026-08-26T13:27:46Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.0/taryo-coolcook-rock2a-v8.15.0.zip",
-  "sha256": "5c2382e645d45d41769178dee5aacb2c719853cd91a3f20caaf031958512847c",
-  "size_bytes": 242620,
+  "version": "8.15.1",
+  "published_at": "2026-08-28T08:23:03Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.1/taryo-coolcook-rock2a-v8.15.1.zip",
+  "sha256": "47af9911279bd160039ae67ed4b58f3c91c244eeb4ae86451a6b6e9b12e455ad",
+  "size_bytes": 247108,
   "mandatory": false,
   "release_notes": [
-    "Integrierte Touch-Tastatur funktioniert direkt im Chromium-Kiosk-Vollbild.",
-    "Eigene Layouts für Sollwerte, Uhrzeiten sowie deutsches QWERTZ mit Umlauten.",
-    "Onboard- und AT-SPI-Autostart werden nicht mehr benötigt; Regelungslogik unverändert."
+    "Settings öffnet vor WLAN-Abfragen; Zustände und Timing werden kontinuierlich aktualisiert.",
+    "Türöffnung verlängert den Abwärme- und Gehäuselüfter-Nachlauf nicht mehr.",
+    "Update ohne Bestätigungsdialog, echter Chromium-Kiosk und Warmhalten auf Lebensmittel-Sollwert plus 5 K.",
+    "Offline-Zeit aus PCF85063-RTC; online NTP mit Rückschreiben in die RTC."
   ]
 }
 
