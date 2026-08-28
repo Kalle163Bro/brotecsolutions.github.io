@@ -1,15 +1,16 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.15.2",
-  "published_at": "2026-08-28T08:55:26Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.2/taryo-coolcook-rock2a-v8.15.2.zip",
-  "sha256": "8d65917ded1dfe9a5ea6c3d1aa71f1d2e824c4503e1b79c33d0635d5eaf37891",
-  "size_bytes": 247581,
+  "version": "8.15.4",
+  "published_at": "2026-08-28T12:33:08Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.4/taryo-coolcook-rock2a-v8.15.4.zip",
+  "sha256": "9a3f378d782b18abc66791255d71984837b799ee1c1faa3ff39ac00881840c73",
+  "size_bytes": 259972,
   "mandatory": false,
   "release_notes": [
-    "Dezimalkomma der integrierten Zahlentastatur funktioniert mit sicherem Eingabepuffer.",
-    "Kompaktes Enter-Symbol ersetzt die großen Fertig-Tasten."
+    "Diagramm auf die letzten 24 Stunden begrenzt; Minutenwerte werden 365 Tage gespeichert.",
+    "Neue Exportseite schreibt einen wählbaren Zeitraum als CSV direkt in einen gewählten Ordner auf dem USB-Stick."
   ]
 }
+
 
