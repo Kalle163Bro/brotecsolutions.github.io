@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.15.7",
-  "published_at": "2026-08-28T14:57:32Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.15.7/taryo-coolcook-rock2a-v8.15.7.zip",
-  "sha256": "06a67639c00f75cd77785ea705bf03a03faab00e529a8c5087b792ceefd197c7",
-  "size_bytes": 264370,
+  "version": "8.16.0",
+  "published_at": "2026-08-28T19:37:59Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.16.0/taryo-coolcook-rock2a-v8.16.0.zip",
+  "sha256": "6d23992269cca3d6d56ac25bdf65d031378967a68980d8536d9522a292cd6cc0",
+  "size_bytes": 270920,
   "mandatory": false,
   "release_notes": [
-    "Fehlende Diagrammdaten werden mit kurzen roten Punkten statt langen Strichen fortgeführt.",
-    "Update-Status und Hinweise können jeweils drei Zeilen anzeigen.",
-    "Oben rechts steht die separate Server-Gerätenummer; die lokale Geräte-ID in Settings bleibt erhalten."
+    "Sichere MQTT-Verbindung mit individuellem Geräte-Zertifikat.",
+    "Server-Scheduler steuert Modus und alle drei Sollwerte ausschließlich in Automatik.",
+    "Livebit, Livewerte und nachlieferbare Minutendaten für das Serverportal."
   ]
 }
