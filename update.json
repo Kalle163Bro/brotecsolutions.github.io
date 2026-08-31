@@ -1,16 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.17.4",
-  "published_at": "2026-08-31T18:42:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.4/taryo-coolcook-rock2a-v8.17.4.zip",
-  "sha256": "01513b00d0b566c0023d2010c6e22eaa8d7989ef1c0959638646b705c00d1458",
-  "size_bytes": 283826,
+  "version": "8.17.5",
+  "published_at": "2026-08-31T18:56:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.5/taryo-coolcook-rock2a-v8.17.5.zip",
+  "sha256": "c1ad8b4b2e9ea33f7f85c4e09040cc88c7441a3a730ff7cf657a891db6f8c8cd",
+  "size_bytes": 421815,
   "mandatory": false,
   "release_notes": [
-    "MQTT-Aktivierungsbereich vergrößert; Eingabefeld und Aktivieren-Button bleiben vollständig innerhalb der Karte, HTTP-Testwarnung entfernt.",
-    "Eine bestehende MQTT-Verbindung gilt immer als aktiviert und verlangt keinen neuen Aktivierungscode.",
-    "Diagramme zeigen bei komplett fehlender Historie eine rote gestrichelte Ersatzlinie; beim aktiven Sollwert dient Garraum Heizen als Fallback.",
-    "LTE über NetworkManager/ModemManager erweitert: WLAN wird beim Wechsel auf LTE getrennt, SIM-PIN kann eingegeben werden und SIM-Lock wird best-effort erkannt."
+    "Serveraktivierung kompakt neu aufgebaut; keine Gerätenummer oder redundanten Statustexte mehr.",
+    "Bei bestehender oder bereits eingerichteter MQTT-Verbindung werden Aktivierungscode und Aktivieren-Button vollständig ausgeblendet.",
+    "Der Verbindungszustand wird nur noch über einen kompakten Statuspunkt dargestellt."
   ]
 }
