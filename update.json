@@ -1,9 +1,15 @@
 {
+  "schema": 1,
+  "product": "taryo-coolcook-rock2a",
   "version": "8.17.6",
-  "url": "https://github.com/brotecsolutions/brotecsolutions.github.io/releases/download/v8.17.6/taryo-coolcook-rock2a-v8.17.6.zip",
+  "published_at": "2026-08-31T19:10:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.6/taryo-coolcook-rock2a-v8.17.6.zip",
   "sha256": "2bad3dbb3481531c23d2f6922c39ac936a7566ab5980539574fe47ff90898039",
+  "size_bytes": 416026,
+  "mandatory": false,
   "release_notes": [
-    "Serveraktivierung korrigiert: Bei bestehender oder eingerichteter Serververbindung werden Aktivierungscode und Aktivieren-Button vollständig ausgeblendet.",
-    "Serverstatus kompakt: nur Überschrift und farbiger Statuspunkt."
+    "Serveraktivierung korrigiert: Bei bestehender oder bereits eingerichteter Serververbindung werden Aktivierungscode und Aktivieren-Button vollständig ausgeblendet.",
+    "Serverstatus kompakt dargestellt: nur Überschrift und farbiger Statuspunkt.",
+    "Fehlerhafte CSS-Zeilenumbrüche aus Version 8.17.5 korrigiert."
   ]
 }
