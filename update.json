@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.17.1",
-  "published_at": "2026-08-31T15:31:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.1/taryo-coolcook-rock2a-v8.17.1.zip",
-  "sha256": "07380c93343c6a5245ed82e067546a05334603ba628963eb9cff36957d64b668",
-  "size_bytes": 280163,
+  "version": "8.17.2",
+  "published_at": "2026-08-31T15:50:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.2/taryo-coolcook-rock2a-v8.17.2.zip",
+  "sha256": "408e1f404d336a7082b564fe104438bd98cdeb82cb473c938633ef9a8cc79192",
+  "size_bytes": 280140,
   "mandatory": false,
   "release_notes": [
-    "MQTT-Verbindung mit Paho-MQTT 2.x korrigiert: ReasonCode wird im on_connect-Callback kompatibel ausgewertet.",
-    "Der gleiche ReasonCode-Kompatibilitätsfehler wurde im on_disconnect-Callback behoben.",
-    "Bestehende MQTT-Aktivierung, Zertifikate und Gerätekonfiguration bleiben beim Update erhalten."
+    "Automatischer Chromium-/Kiosk-Neustart entfernt: Wird Chromium beendet, bleibt es beendet.",
+    "Kiosk startet beim normalen Desktop-Autostart nur einmal; keine Watchdog-Schleife mehr.",
+    "MQTT-Paho-2.x-ReasonCode-Korrekturen aus v8.17.1 sind enthalten."
   ]
 }
