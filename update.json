@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.17.7",
-  "published_at": "2026-08-31T19:20:25Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.7/taryo-coolcook-rock2a-v8.17.7.zip",
-  "sha256": "7584b62c9d12dc7850479a784a322f685434c57b0be8a99c858a25e95e7a2629",
-  "size_bytes": 278226,
+  "version": "8.17.8",
+  "published_at": "2026-08-31T19:31:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.8/taryo-coolcook-rock2a-v8.17.8.zip",
+  "sha256": "aaa2287229d0b9da86968c33dea65d48b7bbbac641241560f697497338f50132",
+  "size_bytes": 279416,
   "mandatory": false,
   "release_notes": [
-    "Serveraktivierung vollständig neu aufgebaut: Bei bestehender oder eingerichteter Serververbindung wird kein Aktivierungscode-Feld erzeugt.",
-    "Im verbundenen Zustand wird nur noch Serververbindung mit grünem Statuspunkt angezeigt.",
-    "Nach erfolgreicher Aktivierung entfernt die Oberfläche Codefeld und Aktivieren-Button vollständig aus dem DOM.",
-    "Neuaufbau auf der sauberen Version 8.17.4; LTE-, Diagramm-, MQTT- und Lüfterfunktionen bleiben erhalten."
+    "Server-Scheduler überträgt jetzt automatisch die nächste zukünftige Phase an den Rock2A.",
+    "Nächste Phase mit Datum und Uhrzeit aktualisiert sich ohne Neustart oder manuellen Refresh.",
+    "Die nächste Phase wird auch während laufendem Heizen oder Kühlen angezeigt.",
+    "Das Ende der aktiven Server-Scheduler-Phase wird aus dem Server-Zeitplan übernommen."
   ]
 }
