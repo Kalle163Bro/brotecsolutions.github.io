@@ -1,16 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.17.8",
-  "published_at": "2026-08-31T19:31:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.8/taryo-coolcook-rock2a-v8.17.8.zip",
-  "sha256": "aaa2287229d0b9da86968c33dea65d48b7bbbac641241560f697497338f50132",
-  "size_bytes": 279416,
+  "version": "8.17.9",
+  "published_at": "2026-09-17T11:48:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.9/taryo-coolcook-rock2a-v8.17.9.zip",
+  "sha256": "807dd940edb247f10bf664c1e4022ac2a267fffe316ae7578efb9a51f72b4517",
+  "size_bytes": 284905,
   "mandatory": false,
   "release_notes": [
-    "Server-Scheduler überträgt jetzt automatisch die nächste zukünftige Phase an den Rock2A.",
-    "Nächste Phase mit Datum und Uhrzeit aktualisiert sich ohne Neustart oder manuellen Refresh.",
-    "Die nächste Phase wird auch während laufendem Heizen oder Kühlen angezeigt.",
-    "Das Ende der aktiven Server-Scheduler-Phase wird aus dem Server-Zeitplan übernommen."
+    "PT1000/MAX31865-Referenzwert für alle vier Temperatursensoren von 3900 auf 4000 Ohm korrigiert.",
+    "Die Korrektur folgt dem tatsächlichen Referenzpfad der LV-Platine mit 3,9 kOhm + 100 Ohm und ersetzt keinen pauschalen Temperatur-Offset.",
+    "Regressionstest für TR, TH1, TH2 und TL sowie die PT1000-Umrechnung bei 100 °C ergänzt."
   ]
 }
