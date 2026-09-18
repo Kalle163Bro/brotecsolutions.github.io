@@ -1,15 +1,17 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.17.9",
-  "published_at": "2026-09-17T11:48:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.17.9/taryo-coolcook-rock2a-v8.17.9.zip",
-  "sha256": "807dd940edb247f10bf664c1e4022ac2a267fffe316ae7578efb9a51f72b4517",
-  "size_bytes": 284905,
+  "version": "8.18.0",
+  "published_at": "2026-09-18T13:08:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.0/taryo-coolcook-rock2a-v8.18.0.zip",
+  "sha256": "75e717fb1216bdb63de6e4cf100bf500e0278f736736d31a986e56e920c9a067",
+  "size_bytes": 281942,
   "mandatory": false,
   "release_notes": [
-    "PT1000/MAX31865-Referenzwert für alle vier Temperatursensoren von 3900 auf 4000 Ohm korrigiert.",
-    "Die Korrektur folgt dem tatsächlichen Referenzpfad der LV-Platine mit 3,9 kOhm + 100 Ohm und ersetzt keinen pauschalen Temperatur-Offset.",
-    "Regressionstest für TR, TH1, TH2 und TL sowie die PT1000-Umrechnung bei 100 °C ergänzt."
+    "Temperaturanzeigen und Sollwerteingaben auf ganze Gradwerte umgestellt.",
+    "Übertemperaturschutz der Heizungen bleibt abschaltwirksam, wird aber nicht mehr als Fehlermeldung angezeigt oder an die Webseite gemeldet.",
+    "Kühlfreigabe mit 5-K-Hysterese: Freigabe bei höchstens 40 °C, erneute Sperre erst ab 45 °C.",
+    "Meldung „Zu heiß zum Kühlen“ enthält jetzt den Hinweis „Tür auf“.",
+    "PT1000/MAX31865-Referenzkorrektur aus v8.17.9 bleibt enthalten."
   ]
 }
