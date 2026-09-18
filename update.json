@@ -1,17 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.18.0",
-  "published_at": "2026-09-18T13:08:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.0/taryo-coolcook-rock2a-v8.18.0.zip",
-  "sha256": "75e717fb1216bdb63de6e4cf100bf500e0278f736736d31a986e56e920c9a067",
-  "size_bytes": 281942,
+  "version": "8.18.1",
+  "published_at": "2026-09-18T15:43:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.1/taryo-coolcook-rock2a-v8.18.1.zip",
+  "sha256": "4ce19ac0e39b111c52e666b51725b5f4b183b65e970193c190d827f2ab042f8c",
+  "size_bytes": 283867,
   "mandatory": false,
   "release_notes": [
-    "Temperaturanzeigen und Sollwerteingaben auf ganze Gradwerte umgestellt.",
-    "Übertemperaturschutz der Heizungen bleibt abschaltwirksam, wird aber nicht mehr als Fehlermeldung angezeigt oder an die Webseite gemeldet.",
-    "Kühlfreigabe mit 5-K-Hysterese: Freigabe bei höchstens 40 °C, erneute Sperre erst ab 45 °C.",
-    "Meldung „Zu heiß zum Kühlen“ enthält jetzt den Hinweis „Tür auf“.",
-    "PT1000/MAX31865-Referenzkorrektur aus v8.17.9 bleibt enthalten."
+    "LTE-Menü vereinfacht: nur noch USB-LTE-Modul auswählen, SIM-PIN eingeben und verbinden.",
+    "APN- und LTE-Profilfelder entfernt; vorhandene bzw. automatisch erkannte NetworkManager-Mobilfunkkonfiguration wird verwendet.",
+    "SIM-PIN wird bei Bedarf über ModemManager an das ausgewählte LTE-Modul übergeben; WLAN wird beim LTE-Wechsel deaktiviert."
   ]
 }
