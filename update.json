@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.18.1",
-  "published_at": "2026-09-18T15:43:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.1/taryo-coolcook-rock2a-v8.18.1.zip",
-  "sha256": "4ce19ac0e39b111c52e666b51725b5f4b183b65e970193c190d827f2ab042f8c",
-  "size_bytes": 283867,
+  "version": "8.18.2",
+  "published_at": "2026-09-21T12:58:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.2/taryo-coolcook-rock2a-v8.18.2.zip",
+  "sha256": "c19748c28a14544b0df001b319f3da67ae87b09a29e5a5ddd3065f28f9911b96",
+  "size_bytes": 284565,
   "mandatory": false,
   "release_notes": [
-    "LTE-Menü vereinfacht: nur noch USB-LTE-Modul auswählen, SIM-PIN eingeben und verbinden.",
-    "APN- und LTE-Profilfelder entfernt; vorhandene bzw. automatisch erkannte NetworkManager-Mobilfunkkonfiguration wird verwendet.",
-    "SIM-PIN wird bei Bedarf über ModemManager an das ausgewählte LTE-Modul übergeben; WLAN wird beim LTE-Wechsel deaktiviert."
+    "Bei bestehender Serververbindung kann das Gerät über „Neu aktivieren“ erneut mit einem einmaligen Aktivierungscode verbunden werden.",
+    "Die bestehende MQTT-Verbindung bleibt bis zur erfolgreichen Neuaktivierung erhalten.",
+    "Eine begonnene Neuaktivierung kann am Gerät abgebrochen werden."
   ]
 }
