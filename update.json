@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.18.2",
-  "published_at": "2026-09-21T12:58:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.2/taryo-coolcook-rock2a-v8.18.2.zip",
-  "sha256": "c19748c28a14544b0df001b319f3da67ae87b09a29e5a5ddd3065f28f9911b96",
-  "size_bytes": 284565,
+  "version": "8.18.3",
+  "published_at": "2026-09-21T18:32:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.3/taryo-coolcook-rock2a-v8.18.3.zip",
+  "sha256": "128122e4980f746aad1c1064941b68342716b1678972bf41c94ffa8646decdc9",
+  "size_bytes": 285933,
   "mandatory": false,
   "release_notes": [
-    "Bei bestehender Serververbindung kann das Gerät über „Neu aktivieren“ erneut mit einem einmaligen Aktivierungscode verbunden werden.",
-    "Die bestehende MQTT-Verbindung bleibt bis zur erfolgreichen Neuaktivierung erhalten.",
-    "Eine begonnene Neuaktivierung kann am Gerät abgebrochen werden."
+    "Kurze 12-stellige Geräte-ID wird per SHA-256 aus der internen Seriennummer abgeleitet und in den Einstellungen angezeigt.",
+    "Die lange Seriennummer bleibt intern unverändert für MQTT und Zertifikate; der Server kann neue Geräte über die kurze ID anlegen und beim Enrollment automatisch binden.",
+    "Aktivieren und Abbrechen bei der Serveraktivierung sind jetzt kompakte Symbolbuttons mit Haken und Kreuz."
   ]
 }
