@@ -1,15 +1,17 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.18.3",
-  "published_at": "2026-09-21T18:32:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.3/taryo-coolcook-rock2a-v8.18.3.zip",
-  "sha256": "128122e4980f746aad1c1064941b68342716b1678972bf41c94ffa8646decdc9",
-  "size_bytes": 285933,
+  "version": "8.18.5",
+  "published_at": "2026-09-24T09:33:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.5/taryo-coolcook-rock2a-v8.18.5.zip",
+  "sha256": "fe49b7918d24365c81e0ee7a49c9bfa35d911d90c916ebcf5bc68e042f2e1837",
+  "size_bytes": 298870,
   "mandatory": false,
   "release_notes": [
-    "Kurze 12-stellige Geräte-ID wird per SHA-256 aus der internen Seriennummer abgeleitet und in den Einstellungen angezeigt.",
-    "Die lange Seriennummer bleibt intern unverändert für MQTT und Zertifikate; der Server kann neue Geräte über die kurze ID anlegen und beim Enrollment automatisch binden.",
-    "Aktivieren und Abbrechen bei der Serveraktivierung sind jetzt kompakte Symbolbuttons mit Haken und Kreuz."
+    "Timing-Seite kompakter: deutsche 24-Stunden-Eingabe ohne natives AM/PM-Popup.",
+    "Timing wahlweise einmalig oder jeden Tag wiederholend; Wiederholung bleibt über Neustarts erhalten.",
+    "Manuell: Nur Kühlen, Warmhalten und Heizen; Lebensmittel-Istwert bleibt beim Kühlen sichtbar.",
+    "Automatik zeigt in der Warmhaltephase Warmhalten bis; Zahlenfelder ohne Auf/Ab-Pfeile.",
+    "Server kann das Gerät per MQTT aus Manuell oder Timing zurück in Automatik versetzen."
   ]
 }
