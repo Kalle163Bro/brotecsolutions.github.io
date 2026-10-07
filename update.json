@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.18.5",
-  "published_at": "2026-09-24T09:33:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.5/taryo-coolcook-rock2a-v8.18.5.zip",
-  "sha256": "fe49b7918d24365c81e0ee7a49c9bfa35d911d90c916ebcf5bc68e042f2e1837",
-  "size_bytes": 298870,
+  "version": "8.18.6",
+  "published_at": "2026-10-07T19:15:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.6/taryo-coolcook-rock2a-v8.18.6.zip",
+  "sha256": "480782b7e82b3abd0f8b8e643cd42fdc959534c537ef669826a1e16e45c51a8f",
+  "size_bytes": 299012,
   "mandatory": false,
   "release_notes": [
-    "Timing-Seite kompakter: deutsche 24-Stunden-Eingabe ohne natives AM/PM-Popup.",
-    "Timing wahlweise einmalig oder jeden Tag wiederholend; Wiederholung bleibt über Neustarts erhalten.",
-    "Manuell: Nur Kühlen, Warmhalten und Heizen; Lebensmittel-Istwert bleibt beim Kühlen sichtbar.",
-    "Automatik zeigt in der Warmhaltephase Warmhalten bis; Zahlenfelder ohne Auf/Ab-Pfeile.",
-    "Server kann das Gerät per MQTT aus Manuell oder Timing zurück in Automatik versetzen."
+    "Hardwareanpassung für LV_Board_V3 / HV_Board_V3 vom 02.09.2026.",
+    "RK1_CTL / Peltiergruppe 1 auf H1 Pin 36, GPIO1_B4, global GPIO 44 umgestellt.",
+    "H1 Pin 32 wird als RELAY_CTL5 für HL1 und HL2 über das HV-Board verwendet.",
+    "PT1000-Steckerbezeichnungen auf P1/CN3, P2/CN6, P3/CN9 und P4/CN16 aktualisiert; RREF bleibt 4000 Ohm.",
+    "Alte Pin-27-Umbauanweisung für RK1 gilt für Board V3 nicht mehr."
   ]
 }
