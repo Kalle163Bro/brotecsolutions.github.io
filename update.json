@@ -1,17 +1,16 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.18.6",
-  "published_at": "2026-10-07T19:15:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.6/taryo-coolcook-rock2a-v8.18.6.zip",
-  "sha256": "480782b7e82b3abd0f8b8e643cd42fdc959534c537ef669826a1e16e45c51a8f",
-  "size_bytes": 299012,
+  "version": "8.18.7",
+  "published_at": "2026-10-12T17:38:00Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.7/taryo-coolcook-rock2a-v8.18.7.zip",
+  "sha256": "fc17e5c51cb4a8a52c3e7ecc3691c6f0c545724cdb3a3ee895c2338991f075a8",
+  "size_bytes": 298526,
   "mandatory": false,
   "release_notes": [
-    "Hardwareanpassung für LV_Board_V3 / HV_Board_V3 vom 02.09.2026.",
-    "RK1_CTL / Peltiergruppe 1 auf H1 Pin 36, GPIO1_B4, global GPIO 44 umgestellt.",
-    "H1 Pin 32 wird als RELAY_CTL5 für HL1 und HL2 über das HV-Board verwendet.",
-    "PT1000-Steckerbezeichnungen auf P1/CN3, P2/CN6, P3/CN9 und P4/CN16 aktualisiert; RREF bleibt 4000 Ohm.",
-    "Alte Pin-27-Umbauanweisung für RK1 gilt für Board V3 nicht mehr."
+    "Board-V3-Belegung korrigiert: RELAY_CTL1/Pin 13 steuert FH1+FH2 als Gehäuselüfter; RELAY_CTL5/Pin 32 steuert HL1+HL2 als Heiz-/Garraum-Umlüfter.",
+    "Heizsymbol von der Flamme auf ein sachliches Heizkörper-/Wärmesymbol umgestellt.",
+    "Tür-offen-Anzeige beschleunigt: 250-ms-Regeltakt und 500-ms-Oberflächenaktualisierung; PT1000-Abfrage bleibt bei 2 s.",
+    "Automatisch rückstellende Meldungen zeigen keinen Clear-Button mehr; quittierbar bleiben nur gespeicherte Ereignisse."
   ]
 }
