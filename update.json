@@ -1,16 +1,18 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.18.7",
-  "published_at": "2026-10-12T17:38:00Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.7/taryo-coolcook-rock2a-v8.18.7.zip",
-  "sha256": "fc17e5c51cb4a8a52c3e7ecc3691c6f0c545724cdb3a3ee895c2338991f075a8",
-  "size_bytes": 298526,
+  "version": "8.18.8",
+  "published_at": "2026-10-15T14:24:25Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.8/taryo-coolcook-rock2a-v8.18.8.zip",
+  "sha256": "ba5cb50db00d13eb1e2e6bafcb49014cb1ca3f8687b4109ed8d313d55aaedf4f",
+  "size_bytes": 302030,
   "mandatory": false,
   "release_notes": [
-    "Board-V3-Belegung korrigiert: RELAY_CTL1/Pin 13 steuert FH1+FH2 als Gehäuselüfter; RELAY_CTL5/Pin 32 steuert HL1+HL2 als Heiz-/Garraum-Umlüfter.",
-    "Heizsymbol von der Flamme auf ein sachliches Heizkörper-/Wärmesymbol umgestellt.",
-    "Tür-offen-Anzeige beschleunigt: 250-ms-Regeltakt und 500-ms-Oberflächenaktualisierung; PT1000-Abfrage bleibt bei 2 s.",
-    "Automatisch rückstellende Meldungen zeigen keinen Clear-Button mehr; quittierbar bleiben nur gespeicherte Ereignisse."
+    "Factory-Clone-Provisionierung für 1:1 geklonte Rock2A-SD-Karten ergänzt.",
+    "Beim Installieren wird die permanente Ethernet-MAC des aktuellen Master-Rock2A gespeichert; Fallback ist eine Board-Seriennummer.",
+    "Auf abweichender Hardware werden einmalig TARYO-ID, MQTT-Aktivierung/Zertifikate, SQLite-Betriebsdaten, machine-id, SSH-Hostkeys und Random-Seed neu erzeugt bzw. bereinigt.",
+    "Board-V3-IO, Regelparameter, Display/Kiosk, Update-Konfiguration und NetworkManager-Verbindungen bleiben erhalten.",
+    "Die neue TARYO-Geräte-ID wird deterministisch per SHA-256 aus der permanenten Hardwarekennung erzeugt.",
+    "Ohne eindeutige Hardwarekennung erfolgt aus Sicherheitsgründen keine automatische Bereinigung."
   ]
 }
