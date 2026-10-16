@@ -1,18 +1,17 @@
 {
   "schema": 1,
   "product": "taryo-coolcook-rock2a",
-  "version": "8.18.8",
-  "published_at": "2026-10-15T14:24:25Z",
-  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.8/taryo-coolcook-rock2a-v8.18.8.zip",
-  "sha256": "ba5cb50db00d13eb1e2e6bafcb49014cb1ca3f8687b4109ed8d313d55aaedf4f",
-  "size_bytes": 302030,
+  "version": "8.18.9",
+  "published_at": "2026-10-16T13:16:37Z",
+  "download_url": "https://github.com/Kalle163Bro/brotecsolutions.github.io/releases/download/v8.18.9/taryo-coolcook-rock2a-v8.18.9.zip",
+  "sha256": "858c6000841196e06d922d966bfc1345a17a673c6882d751b84b99a33f4f79af",
+  "size_bytes": 326497,
   "mandatory": false,
   "release_notes": [
-    "Factory-Clone-Provisionierung für 1:1 geklonte Rock2A-SD-Karten ergänzt.",
-    "Beim Installieren wird die permanente Ethernet-MAC des aktuellen Master-Rock2A gespeichert; Fallback ist eine Board-Seriennummer.",
-    "Auf abweichender Hardware werden einmalig TARYO-ID, MQTT-Aktivierung/Zertifikate, SQLite-Betriebsdaten, machine-id, SSH-Hostkeys und Random-Seed neu erzeugt bzw. bereinigt.",
-    "Board-V3-IO, Regelparameter, Display/Kiosk, Update-Konfiguration und NetworkManager-Verbindungen bleiben erhalten.",
-    "Die neue TARYO-Geräte-ID wird deterministisch per SHA-256 aus der permanenten Hardwarekennung erzeugt.",
-    "Ohne eindeutige Hardwarekennung erfolgt aus Sicherheitsgründen keine automatische Bereinigung."
+    "Factory-Clone-Erkennung verwendet bevorzugt den eindeutigen Rockchip-OTP/CPU-Hardwarefingerprint statt nur die Ethernet-MAC.",
+    "Bei einem neuen Clone werden Geräte-ID, MQTT-Aktivierung, Zertifikate und Betriebsdaten neu erzeugt.",
+    "Übernommene WLAN- und Mobilfunkprofile sowie NetworkManager-Secrets werden auf einem Clone entfernt; Ethernet und Maschinenkonfiguration bleiben erhalten.",
+    "Factory-Master wird bei normalen Updates nicht mehr überschrieben.",
+    "Neue Befehle --prepare-master und --force-new-device für sichere Master-Erstellung und Reparatur bereits geklonter Geräte."
   ]
 }
